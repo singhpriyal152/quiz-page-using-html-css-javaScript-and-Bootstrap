@@ -1,0 +1,110 @@
+body{
+  background-color:   #b3d9ff	;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+  .navbar-brand{
+font-family: 'Pacifico', cursive;
+  margin-left: 5px;
+  font-size: 2.5rem;
+}
+.buttons, .timer {
+  padding:20px;
+  margin: 10px;
+}
+h1{
+  font-family: 'Lora', serif;
+}
+.timer{
+  margin-left: 20px;
+
+}
+.buttons .btn{
+  border-radius: 50%;
+  margin:2px;
+}
+.block{
+  box-shadow: inset 0px 5px #c8c2bc;
+    background-color:white ;
+}
+
+
+.maximize-button{
+  margin:auto;
+  display: none;
+}
+.small-buttons{
+ border:none;
+ background-color: white;
+}
+.clear-button{
+  align-items: center;
+}
+.footer-buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.footer{
+  width: 98%;
+  padding: 10px;
+ margin: 0 auto;
+}
+.Parts{
+  border-bottom: solid 1px #c8c2bc;
+  padding: 15px;
+}
+.Part-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Part-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.close-and-minimise{
+  margin-right: 10px;
+}
+
+.callout{
+  border-radius: 0.25rem;
+ padding: 15px;
+  margin-left:10px;
+   border-left-style:solid;
+    border-left-width:5px;
+  border-left-color: #5bc0de;
+  margin-bottom: 15px;
+}
+.result{
+width: 100%;
+  background-color: #1eae98;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   font-size: 2rem;
+   display:none;
+   padding:10% 40%;
+   margin: auto;
+}
+.result h1{
+font-family: 'Chela One', cursive;
+font-size: 4rem;
+}
+.result h2{
+font-family: 'Oswald', sans-serif;
+font-stretch: extra-expanded;
+font-size: 3rem;
+}
+.final {
+  font-size: 5rem;
+}
+#timeup{
+  color:#dc3545;
+  padding-bottom: 1%;
+  display:none;
+}
